@@ -1,0 +1,22 @@
+{
+  "name": "meeting-scheduler-backend",
+  "version": "1.0.0",
+  "description": "backend creation for the meeting scheduler application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manjunath",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.15"
+  }
+}
